@@ -1,15 +1,15 @@
 :root {
-    --bg-dark: #0a0e17;
-    --panel-bg: rgba(18, 26, 47, 0.65);
-    --panel-border: rgba(255, 255, 255, 0.07);
-    --primary: #5c62f5;
-    --primary-hover: #4a50e2;
-    --accent-cyan: #06b6d4;
-    --accent-amber: #f59e0b;
+    --bg-dark: #080511; /* Deep cosmic dark space */
+    --panel-bg: rgba(20, 13, 38, 0.6); /* Semi-transparent cosmic purple */
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --primary: #a855f7; /* Royal Amethyst Purple */
+    --primary-hover: #9333ea;
+    --accent-cyan: #ec4899; /* Rose Gold / Pink */
+    --accent-amber: #f43f5e; /* Coral Pink */
     --accent-emerald: #10b981;
-    --text-primary: #f3f4f6;
-    --text-secondary: #a1a1aa;
-    --text-muted: #71717a;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
     --font-header: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -39,20 +39,32 @@ body {
     right: 0;
     bottom: 0;
     z-index: -3;
-    background: radial-gradient(circle at 50% 50%, #151e36 0%, #0a0e17 100%);
+    background: radial-gradient(circle at 50% 50%, #1e103c 0%, #080511 100%);
 }
 
 .glowing-orb {
     position: fixed;
     border-radius: 50%;
     z-index: -2;
-    filter: blur(130px);
-    opacity: 0.45;
+    filter: blur(140px);
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.orb-1 {
     background: var(--primary);
-    width: 400px;
-    height: 400px;
-    top: -50px;
-    right: -50px;
+    width: 500px;
+    height: 500px;
+    top: -100px;
+    right: -100px;
+}
+
+.orb-2 {
+    background: var(--accent-cyan);
+    width: 450px;
+    height: 450px;
+    bottom: -100px;
+    left: -100px;
 }
 
 .container {
