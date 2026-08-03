@@ -5,13 +5,12 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import json
 
-# Python path helper: ensures imports work from the 'src' directory
+# Python path helper: ensures imports work from the project root directory
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src"))
 
-from qa_engine import QAEngine
-from preprocess import calculate_text_analytics
-from evaluate import calculate_em, calculate_f1
+from src.qa_engine import QAEngine
+from src.preprocess import calculate_text_analytics
+from src.evaluate import calculate_em, calculate_f1
 
 app = FastAPI(
     title="User Question Answering API",

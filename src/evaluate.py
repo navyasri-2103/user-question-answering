@@ -3,7 +3,10 @@ import string
 import re
 import os
 from typing import List, Dict, Any
-from qa_engine import QAEngine
+try:
+    from src.qa_engine import QAEngine
+except ModuleNotFoundError:
+    from qa_engine import QAEngine
 
 def normalize_answer(s: str) -> str:
     """
