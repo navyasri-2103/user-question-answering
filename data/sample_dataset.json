@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "category": "Customer Support",
+        "passage": "Antigravity Corporation's remote work policy allows employees to work from home up to three days per week. To be eligible, employees must have completed at least six months of continuous service and received a satisfactory performance rating. Requests must be submitted by the 15th of the preceding month.",
+        "qas": [
+            {
+                "id": "q1_1",
+                "question": "How many days per week can employees work from home?",
+                "answer": "up to three days",
+                "answer_start": 80
+            },
+            {
+                "id": "q1_2",
+                "question": "What is the service requirement to be eligible for remote work?",
+                "answer": "six months of continuous service",
+                "answer_start": 162
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Customer Support",
+        "passage": "Antigravity Corporation's return policy allows customers to return any purchased product within 30 days of the transaction date. To receive a full refund to the original payment method, items must be in their original packaging, unused, and accompanied by the original sales receipt. Returns requested after 30 days are only eligible for store credit.",
+        "qas": [
+            {
+                "id": "q2_1",
+                "question": "How many days do customers have to return a purchased product?",
+                "answer": "within 30 days",
+                "answer_start": 89
+            },
+            {
+                "id": "q2_2",
+                "question": "What are returns requested after 30 days eligible for?",
+                "answer": "store credit",
+                "answer_start": 338
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Customer Support",
+        "passage": "Antigravity Corporation offers free standard shipping on all orders over $50. For orders under $50, a flat shipping fee of $5.99 is applied at checkout. Standard shipping typically takes 3 to 5 business days for delivery within the continental United States. Express shipping is also available for an additional cost of $14.99.",
+        "qas": [
+            {
+                "id": "q3_1",
+                "question": "What is the flat shipping fee for orders under $50?",
+                "answer": "$5.99",
+                "answer_start": 109
+            },
+            {
+                "id": "q3_2",
+                "question": "How many business days does standard shipping take?",
+                "answer": "3 to 5",
+                "answer_start": 164
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Customer Support",
+        "passage": "Our website uses cookies to enhance user experience and analyze site traffic. We collect personal information, such as your email address and name, only when you voluntarily subscribe to our newsletter or register an account. We do not sell or share your personal data with third-party marketers without your explicit consent.",
+        "qas": [
+            {
+                "id": "q4_1",
+                "question": "What does our website use to enhance user experience?",
+                "answer": "cookies",
+                "answer_start": 21
+            },
+            {
+                "id": "q4_2",
+                "question": "What personal information do we collect when you voluntarily subscribe?",
+                "answer": "email address and name",
+                "answer_start": 104
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Space & Science",
+        "passage": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars carries the name of the Roman god of war and is often referred to as the Red Planet. The latter refers to the effect of the iron oxide prevalent on its surface, which gives it a reddish appearance that is distinctive among the astronomical bodies visible to the naked eye.",
+        "qas": [
+            {
+                "id": "q5_1",
+                "question": "What is Mars often referred to as?",
+                "answer": "Red Planet",
+                "answer_start": 226
+            },
+            {
+                "id": "q5_2",
+                "question": "Why does Mars have a reddish appearance?",
+                "answer": "effect of the iron oxide prevalent on its surface",
+                "answer_start": 263
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Space & Science",
+        "passage": "Photosynthesis is the chemical process by which green plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and oxygen from carbon dioxide and water. The process occurs inside organelles called chloroplasts, which contain chlorophyll. Chlorophyll absorbs light energy primarily from the blue and red wavelengths of the spectrum.",
+        "qas": [
+            {
+                "id": "q6_1",
+                "question": "What do green plants convert light energy into during photosynthesis?",
+                "answer": "chemical energy",
+                "answer_start": 113
+            },
+            {
+                "id": "q6_2",
+                "question": "Inside which organelles does photosynthesis occur?",
+                "answer": "chloroplasts",
+                "answer_start": 234
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Space & Science",
+        "passage": "A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape from it. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole. The boundary of no return is called the event horizon, and at the center lies a gravitational singularity.",
+        "qas": [
+            {
+                "id": "q7_1",
+                "question": "What is the boundary of no return called?",
+                "answer": "event horizon",
+                "answer_start": 235
+            },
+            {
+                "id": "q7_2",
+                "question": "What predicts that a sufficiently compact mass can form a black hole?",
+                "answer": "theory of general relativity",
+                "answer_start": 107
+            },
+            {
+                "id": "q7_3",
+                "question": "What lies at the center of a black hole?",
+                "answer": "gravitational singularity",
+                "answer_start": 289
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Space & Science",
+        "passage": "Deoxyribonucleic acid, commonly known as DNA, is the molecule that carries genetic instructions for the development and functioning of all living organisms. DNA is composed of two polynucleotide chains that coil around each other to form a double helix. The structure of DNA was first described by James Watson and Francis Crick in 1953.",
+        "qas": [
+            {
+                "id": "q8_1",
+                "question": "What form do the two polynucleotide chains of DNA make when they coil around each other?",
+                "answer": "double helix",
+                "answer_start": 218
+            },
+            {
+                "id": "q8_2",
+                "question": "Who first described the structure of DNA?",
+                "answer": "James Watson and Francis Crick",
+                "answer_start": 265
+            },
+            {
+                "id": "q8_3",
+                "question": "In which year was the structure of DNA first described?",
+                "answer": "1953",
+                "answer_start": 300
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Space & Science",
+        "passage": "The water cycle describes the continuous movement of water on, above, and below the surface of the Earth. Evaporation occurs when solar energy heats water, turning it into water vapor. As this vapor rises, it cools and condenses into clouds, which eventually release precipitation like rain or snow back to the surface.",
+        "qas": [
+            {
+                "id": "q9_1",
+                "question": "What occurs when solar energy heats water?",
+                "answer": "Evaporation",
+                "answer_start": 98
+            },
+            {
+                "id": "q9_2",
+                "question": "What does water vapor condense into as it cools?",
+                "answer": "clouds",
+                "answer_start": 194
+            },
+            {
+                "id": "q9_3",
+                "question": "What forms of precipitation are released back to the surface?",
+                "answer": "rain or snow",
+                "answer_start": 242
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Education & History",
+        "passage": "The Declaration of Independence was the founding document of the United States, approved by the Continental Congress on July 4, 1776. It announced the separation of 13 North American British colonies from Great Britain. The document was drafted by Thomas Jefferson and explained why the Congress had voted to declare independence.",
+        "qas": [
+            {
+                "id": "q10_1",
+                "question": "When was the Declaration of Independence approved?",
+                "answer": "July 4, 1776",
+                "answer_start": 120
+            },
+            {
+                "id": "q10_2",
+                "question": "Who drafted the Declaration of Independence?",
+                "answer": "Thomas Jefferson",
+                "answer_start": 248
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "category": "Education & History",
+        "passage": "The French Revolution began in 1789 with the storming of the Bastille, a medieval fortress and political prison in Paris. The revolution overthrew the absolute monarchy of King Louis XVI and established a republic. The ideals of liberty, equality, and fraternity became the core principles of the new regime, which ended in 1799 with the rise of Napoleon Bonaparte.",
+        "qas": [
+            {
+                "id": "q11_1",
+                "question": "In what year did the French Revolution begin?",
+                "answer": "1789",
+                "answer_start": 31
+            },
+            {
+                "id": "q11_2",
+                "question": "What did the revolution overthrow?",
+                "answer": "absolute monarchy of King Louis XVI",
+                "answer_start": 122
+            },
+            {
+                "id": "q11_3",
+                "question": "Whose rise in 1799 marked the end of the revolution?",
+                "answer": "Napoleon Bonaparte",
+                "answer_start": 298
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Education & History",
+        "passage": "The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex bordering Cairo, Egypt. It was built during the reign of Pharaoh Khufu in the 26th century BC as a monumental tomb. The construction of this massive stone structure took approximately 20 years to complete.",
+        "qas": [
+            {
+                "id": "q12_1",
+                "question": "During whose reign was the Great Pyramid of Giza built?",
+                "answer": "Pharaoh Khufu",
+                "answer_start": 169
+            },
+            {
+                "id": "q12_2",
+                "question": "How many years did the construction of the Great Pyramid take?",
+                "answer": "approximately 20 years",
+                "answer_start": 252
+            },
+            {
+                "id": "q12_3",
+                "question": "In which century BC was the pyramid built?",
+                "answer": "26th century BC",
+                "answer_start": 188
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "category": "Education & History",
+        "passage": "The movable type printing press was invented by Johannes Gutenberg in Mainz, Germany, around the year 1440. This invention revolutionized communication by allowing books to be mass-produced quickly and cheaply. The Gutenberg Bible, printed in 1455, was the first major book printed in the West using this technology.",
+        "qas": [
+            {
+                "id": "q13_1",
+                "question": "Who invented the movable type printing press?",
+                "answer": "Johannes Gutenberg",
+                "answer_start": 44
+            },
+            {
+                "id": "q13_2",
+                "question": "Around what year was the printing press invented?",
+                "answer": "1440",
+                "answer_start": 102
+            },
+            {
+                "id": "q13_3",
+                "question": "What was the first major book printed in the West?",
+                "answer": "Gutenberg Bible",
+                "answer_start": 224
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "category": "Technology & Computing",
+        "passage": "Python is an interpreted, high-level programming language created by Guido van Rossum and first released in 1991. Its design philosophy emphasizes code readability through the use of significant indentation. Python is widely used in data science, web development, and artificial intelligence due to its clean syntax and extensive standard library.",
+        "qas": [
+            {
+                "id": "q14_1",
+                "question": "Who created the Python programming language?",
+                "answer": "Guido van Rossum",
+                "answer_start": 71
+            },
+            {
+                "id": "q14_2",
+                "question": "In which year was Python first released?",
+                "answer": "1991",
+                "answer_start": 115
+            },
+            {
+                "id": "q14_3",
+                "question": "Why is Python widely used in data science and AI?",
+                "answer": "clean syntax and extensive standard library",
+                "answer_start": 247
+            }
+        ]
+    }
+]

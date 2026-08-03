@@ -1,0 +1,18 @@
+# Python cache files (generated when running python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments (large folders we don't need on GitHub)
+.venv/
+venv/
+ENV/
+env/
+
+# Editor config folders
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
