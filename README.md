@@ -14,7 +14,8 @@ User Question Answering is an end-to-end, interactive Question Answering (QA) ap
 
 ## 🛠️ Tech Stack & Tools
 
-- **Backend / Web Server**: FastAPI, Uvicorn (Python 3.8+)
+- **Core Language**: Python (3.8+)
+- **Backend Framework**: FastAPI, Uvicorn
 - **NLP & Deep Learning**: Hugging Face Transformers, PyTorch (`distilbert-base-cased-distilled-squad` model)
 - **Data & Evaluation**: Pandas, NumPy
 - **Frontend Dashboard**: Vanilla HTML5, Custom CSS3 (Modern Glassmorphic UI & Outlined Typography), Vanilla JavaScript (Fetch API & Dynamic DOM)
