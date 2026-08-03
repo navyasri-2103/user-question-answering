@@ -3,7 +3,6 @@ import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-from typing import Dict, Any, List
 import json
 
 # Python path helper: ensures imports work from the 'src' directory
