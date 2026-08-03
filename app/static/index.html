@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Question Answering</title>
+    <!-- Modern Outlined fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background visual decorations -->
+    <div class="glass-bg"></div>
+    <div class="glowing-orb orb-1"></div>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="logo-area">
+                <div class="logo-icon">QA</div>
+                <div>
+                    <h1>User Question Answering</h1>
+                    <p class="subtitle">Interactive Question Answering & Data Analytics</p>
+                </div>
+            </div>
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>QA Engine Active</span>
+            </div>
+        </header>
+
+        <!-- KPI METRICS (Shows model accuracy stats) -->
+        <section class="metrics-grid">
+            <div class="kpi-card" id="kpi-em">
+                <h3>Exact Match (EM) 🎯</h3>
+                <div class="kpi-value">--%</div>
+                <p class="kpi-desc">Perfect text accuracy</p>
+            </div>
+            <div class="kpi-card" id="kpi-f1">
+                <h3>F1-Score 📊</h3>
+                <div class="kpi-value">--%</div>
+                <p class="kpi-desc">Word overlap accuracy</p>
+            </div>
+            <div class="kpi-card" id="kpi-latency">
+                <h3>Model Latency ⚡</h3>
+                <div class="kpi-value">--s</div>
+                <p class="kpi-desc">Average speed of predictions</p>
+            </div>
+        </section>
+
+        <!-- WORKSPACE (Playground & Analytics side-by-side) -->
+        <main class="workspace-grid">
+
+            <!-- LEFT PANEL: Playground where you ask questions -->
+            <section class="panel">
+                <h2>Interactive QA Playground</h2>
+                <hr>
+
+                <!-- Quick scenario selectors -->
+                <div class="input-group">
+                    <label>Quick Select Scenarios:</label>
+                    <div id="scenario-list" class="scenario-buttons">
+                        <!-- Loaded dynamically from your JSON dataset -->
+                    </div>
+                </div>
+
+                <!-- Text passage context -->
+                <div class="input-group">
+                    <label for="passage-input">Context Document (Passage)</label>
+                    <textarea id="passage-input" placeholder="Enter reference text here..."></textarea>
+                </div>
+
+                <!-- Question input and button -->
+                <div class="input-group">
+                    <label for="question-input">Ask a Question</label>
+                    <div class="question-row">
+                        <input type="text" id="question-input" placeholder="Type your question here...">
+                        <button id="ask-btn" class="btn-primary">Get Answer</button>
+                    </div>
+                </div>
+
+                <!-- Answer result display (highlights text) -->
+                <div id="output-box" class="output-container">
+                    <div class="placeholder-text">
+                        <p>Ask a question or select a scenario to extract answers!</p>
+                    </div>
+                    <div class="output-content hidden">
+                        <div class="output-header">
+                            <h3>Extracted Answer:</h3>
+                            <span class="confidence-tag">Confidence: <strong id="answer-score">0%</strong></span>
+                        </div>
+                        <div id="highlighted-context" class="highlighted-box"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT PANEL: Statistical insights -->
+            <section class="panel">
+                <h2>Data Analytics & Profile</h2>
+                <hr>
+
+                <!-- Current text profile stats -->
+                <div class="analytics-section">
+                    <h3>Document Text Stats</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-num" id="text-words">-</span>
+                            <span class="stat-lbl">Words</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" id="text-sentences">-</span>
+                            <span class="stat-lbl">Sentences</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" id="text-chars">-</span>
+                            <span class="stat-lbl">Characters</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" id="text-readability">-</span>
+                            <span class="stat-lbl">Readability (ARI)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category performance averages -->
+                <div class="analytics-section">
+                    <h3>Performance by Category</h3>
+                    <div id="category-stats-list" class="category-list">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <p>Powered & Designed by <strong>User Question Answering</strong> • Day 5 Deployment</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
