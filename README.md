@@ -10,6 +10,15 @@ User Question Answering is an end-to-end, interactive Question Answering (QA) ap
 - **Dynamic Text Analytics**: Extracts descriptive metrics (words, sentences, character counts, average word/sentence lengths) and computes readability using the **Automated Readability Index (ARI)**.
 - **Performance Evaluation Suite**: Benchmarks predictions against a sample dataset to report aggregated validation statistics including **Exact Match (EM)** and **F1-Score**.
 - **Interactive Web Dashboard**: A modern, glassmorphic UI built with Vanilla HTML/CSS/JS that displays KPI cards, playground scenarios, and visual progress bars of performance categories.
+---
+
+## 🛠️ Tech Stack & Tools
+
+- **Backend / Web Server**: FastAPI, Uvicorn (Python 3.8+)
+- **NLP & Deep Learning**: Hugging Face Transformers, PyTorch (`distilbert-base-cased-distilled-squad` model)
+- **Data & Evaluation**: Pandas, NumPy
+- **Frontend Dashboard**: Vanilla HTML5, Custom CSS3 (Modern Glassmorphic UI & Outlined Typography), Vanilla JavaScript (Fetch API & Dynamic DOM)
+- **Development Tools**: Git/GitHub, Visual Studio Code
 
 ---
 
