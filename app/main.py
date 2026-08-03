@@ -31,7 +31,10 @@ def get_dataset():
     """
     Returns the sample dataset for frontend scenarios selection.
     """
-    dataset_path = "data/sample_dataset.json"
+    # Find root directory absolutely
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_path = os.path.join(base_dir, "data", "sample_dataset.json")
+    
     if not os.path.exists(dataset_path):
         raise HTTPException(status_code=404, detail="Dataset file not found.")
         
@@ -75,7 +78,10 @@ def get_metrics():
     """
     Runs model evaluation on the dataset and returns aggregated dashboard statistics.
     """
-    dataset_path = "data/sample_dataset.json"
+    # Find root directory absolutely
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    dataset_path = os.path.join(base_dir, "data", "sample_dataset.json")
+    
     if not os.path.exists(dataset_path):
         raise HTTPException(status_code=404, detail="Dataset file not found.")
         
@@ -149,6 +155,7 @@ def get_metrics():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Mount static directory to host the UI assets
-os.makedirs("app/static", exist_ok=True)
-app.mount("/", StaticFiles(directory="app/static", html=True), name="static")
+# Resolve the static directory path absolutely
+static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
+os.makedirs(static_dir, exist_ok=True)
+app.mount("/", StaticFiles(directory=static_dir, html=True), name="static")
