@@ -1,6 +1,6 @@
-# CognitiveQA: Interactive Question Answering & Text Analytics
+# User Question Answering: Interactive QA & Text Analytics
 
-CognitiveQA is an end-to-end, interactive Question Answering (QA) application and analytics dashboard. It utilizes a Hugging Face Transformer model (**DistilBERT** fine-tuned on SQuAD) to extract answers from passages, profiles the passage text using quantitative readability statistics, and evaluates performance metrics (Exact Match, F1-Score, and Latency) across a benchmark dataset.
+User Question Answering is an end-to-end, interactive Question Answering (QA) application and analytics dashboard. It utilizes a Hugging Face Transformer model (**DistilBERT** fine-tuned on SQuAD) to extract answers from passages, profiles the passage text using quantitative readability statistics, and evaluates performance metrics (Exact Match, F1-Score, and Latency) across a benchmark dataset.
 
 ---
 
