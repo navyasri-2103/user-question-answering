@@ -478,3 +478,22 @@ mark {
     color: var(--text-muted);
     font-style: italic;
 }
+
+.extracted-answer-box {
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 4px solid var(--primary);
+    padding: 12px 16px;
+    border-radius: 4px 12px 12px 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.context-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
