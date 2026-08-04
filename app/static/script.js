@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const outputContent = outputBox.querySelector(".output-content");
     const answerScore = document.getElementById("answer-score");
     const answerText = document.getElementById("answer-text");
-    const highlightedContext = document.getElementById("highlighted-context");
 
     const textWords = document.getElementById("text-words");
     const textSentences = document.getElementById("text-sentences");
@@ -137,9 +136,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const pred = data.prediction;
             answerScore.textContent = `${(pred.score * 100).toFixed(1)}%`;
             answerText.textContent = pred.answer;
-
-            // Highlight answer string inside context
-            highlightedContext.innerHTML = createHtmlHighlight(passage, pred.answer, pred.start, pred.end);
 
             // Display text details
             if (data.analytics) {
