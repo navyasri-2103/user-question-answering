@@ -1,11 +1,20 @@
 import argparse
 import uvicorn
 
+APP_VERSION = "1.0.0"
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="CognitiveQA CLI - Question Answering Engine and Web Server Dashboard"
     )
-    
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {APP_VERSION}",
+        help="Show the application version and exit"
+    )
+
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument(
         "--server",
@@ -17,7 +26,7 @@ def main():
         action="store_true",
         help="Run model evaluation (EM & F1) on the pre-collected sample dataset"
     )
-    
+
     args = parser.parse_args()
     
     if args.evaluate:
